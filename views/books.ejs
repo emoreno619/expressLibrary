@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Individual Book Page</title>
+</head>
+<body>
+	<h1>This is an individual book page </h1>
+		<h2>The book:</h2>
+		<li><%= anotherBook.title%></li>
+			<ul><%= anotherBook.author%></ul>
+	</p>
+
+	<a href="/edit/<%=anotherBook.id %>">Edit this Book Record</a>
+
+	<a href="/delete/<%=anotherBook.id %>">Delete this Book Record</a>
+	
+	<a href="/">Home</a>
+	
+</body>
+</html>
+
